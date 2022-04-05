@@ -3,7 +3,6 @@
 
 body{
   background-color:#EAF6F6;
-
 }
 
 hr{
@@ -21,4 +20,170 @@ height: 20px,
 
 h1, h3 {
   color: #66fbfb;
+}
+
+h1:hover{
+  color: #3e858a;
+}
+
+
+.sawir{
+  background-color:  grey;
+  text-align: center;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+
+nav {
+  background-color: #dee0e0;
+  text-align: center;
+  padding: 50px;
+  word-spacing: 90px;
+}
+ul{
+  display: inline;
+
+}
+
+li{
+  display: inline;
+
+  padding: 40px;
+
+}
+.bar {
+  text-decoration: none;
+  font-size: 40px;
+
+}
+.bar:hover{
+  color: gold;
+  font-size: 20px;
+}
+
+
+
+
+
+
+input[type=text] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 26px;
+}
+input[type=password], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+input[type=select], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*
+input[type=submit]*/
+.bur{
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+/*
+input[type=submit]
+*/
+.bur:hover {
+  background-color: #45a049;
+}
+.bur1{
+  text-align: center;
+}
+.img1{
+  align-items: center;
+  margin-left: 480px;
+  margin-top: 50px;
+}
+.img1:hover{
+  width: 500px;
+  height: 300px;
+}
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.var{
+  text-align: center;
+  align-items: center;
+}
+
+.div{
+  align-items: center;
+  text-align: center;
+}
+
+.centerabout{
+  text-align: center;
+  align-items: center;
+}
+.h1j{
+  align-items: center;
+  text-align: center;
+  font-style: oblique;
+  font-size: 60px;
+
+}
+.f3{
+text-align: center;
+font-size: 40px;
+color: #98480;
+}
+.mar{
+  color: #2c494a;
+  font-size: 50px;
+
+}
+.footer{
+  background-color: #465b5c;
+  margin-top: 260px;
+}
+.p{
+  color:#2f3b39;
+  font-size: 40px;
+  font-family:fantasy;
 }
